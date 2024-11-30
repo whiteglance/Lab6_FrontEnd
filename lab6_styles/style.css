@@ -1,0 +1,51 @@
+body {
+    background-color: grey; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#userContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+.user-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+.user-card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    object-fit: cover; 
+    border-radius: 0;
+}
+.user-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+button {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #0056b3;
+}
